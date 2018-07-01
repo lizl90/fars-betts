@@ -1,0 +1,17 @@
+Package: farsbetts
+Type: Package
+Title: Extracting, processing and analysing data from FARS
+Version: 0.1.0
+Imports: 
+    dplyr,
+    maps,
+    tidyr,
+    graphics,
+    readr
+Authors@R: person("Liz", "Betts", email="test@domain.com", role=c("aut","cre"))
+Maintainer: The package maintainer <lizbetts@somewhere.net>
+Description: Functions for reading and exploring the US FARS datasets
+License: GPL (>= 2)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
