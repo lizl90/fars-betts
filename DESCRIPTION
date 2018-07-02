@@ -10,8 +10,7 @@ Imports:
     readr
 Authors@R: person("Liz", "Betts", email="test@domain.com", role=c("aut","cre"))
 Maintainer: The package maintainer <lizbetts@somewhere.net>
-Description: This package is a collection of function to read and analyse data from the United States National Highway Traffic Safety 
-   Administration's Fatality Analysis Reporting System (FARS).
+Description: Functions for reading and exploring the US FARS datasets
 License: GPL (>= 2)
 Encoding: UTF-8
 LazyData: true
