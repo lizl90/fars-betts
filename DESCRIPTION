@@ -10,7 +10,8 @@ Imports:
     readr
 Authors@R: person("Liz", "Betts", email="test@domain.com", role=c("aut","cre"))
 Maintainer: The package maintainer <lizbetts@somewhere.net>
-Description: Functions for reading and exploring the US FARS datasets
+Description: Functions for reading and exploring  the United States National Highway Traffic Safety 
+   Administration's Fatality Analysis Reporting System data (FARS)
 License: GPL (>= 2)
 Encoding: UTF-8
 LazyData: true
