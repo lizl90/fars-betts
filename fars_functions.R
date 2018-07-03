@@ -49,7 +49,7 @@ fars_read <- function(filename) {
 
 #' Generate FARS Filename
 
-#' Generates a standard Fatality Analysis Reporting System (FARS) filename for the year provided.
+#' Generates a standard Fatality Analysis Reporting System (FARS) filename for the given year.
 
 #'
 
@@ -61,7 +61,7 @@ fars_read <- function(filename) {
 
 #'
 
-#' @note If the year cannot be coerced to integer, NA is used.
+#' @note If year cannot be coerced to an integer, use NA.
 
 #'
 
@@ -141,7 +141,7 @@ fars_read_years <- function(years) {
 
 
 
-#' Summarize FARS Data for One or More Years
+#' Summarize FARS Data for one or several years
 
 #'
 
@@ -153,7 +153,7 @@ fars_read_years <- function(years) {
 
 #'
 
-#' @return This function returns a data frame of the fatality crash frequency by month (row) and year (column).
+#' @return This function returns a data frame of the number of fatal crashes by month (row) and year (column).
 
 #'
 
@@ -265,7 +265,7 @@ fars_map_state <- function(state.num, year) {
 
   if(nrow(data.sub) == 0L) {
 
-    message("no accidents to plot")
+    message("nothing to plot")
 
     return(invisible(NULL))
 
