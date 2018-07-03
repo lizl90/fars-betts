@@ -5,6 +5,7 @@ This R package is submitted as the Week 4 final assignment for the "Building R P
 
 Date: Jul 3, 2018
 
+
 For more information, please see the Vignette and Description files provided
 
 
